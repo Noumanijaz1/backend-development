@@ -1,12 +1,15 @@
-const express = require('express');
+const express = require("express");
 const hostRouter = express.Router();
 
-// Local Module
-const rootDir = require("../utils/pathUtil");
-const { getAddHome, postAddHome } = require('../controllers/homes');
+const {
+  getAddHome,
+  postAddHome,
+  getHostHomes,
+} = require("../controllers/host");
 
-hostRouter.get("/add-home", getAddHome)
+hostRouter.get("/add-home", getAddHome);
 
-hostRouter.post("/add-home", postAddHome)
+hostRouter.post("/add-home", postAddHome);
+hostRouter.get("/host-home-list", getHostHomes);
 
 module.exports = hostRouter;
