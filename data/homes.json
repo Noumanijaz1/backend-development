@@ -1,16 +1,1 @@
-[
-  {
-    "houseName": "Nouman House",
-    "price": "1200",
-    "location": "Herbanspura",
-    "rating": "9.5",
-    "photoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRbcrj53mGyk-u4JwrIb6z1RBAeCpxR78gfQ&s"
-  },
-  {
-    "houseName": "Janat House",
-    "price": "1200",
-    "location": "lahore",
-    "rating": "8",
-    "photoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRbcrj53mGyk-u4JwrIb6z1RBAeCpxR78gfQ&s"
-  }
-]
+[{"houseName":"Nouman House","price":"1200","location":"Herbanspura","rating":"9.5","photoUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRbcrj53mGyk-u4JwrIb6z1RBAeCpxR78gfQ&s","id":"0.32521140477278143"}]
